@@ -1,0 +1,71 @@
+#html {
+    font-size: 16px;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#img-div {
+    width: 95%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+    margin: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+#img-caption {
+    font-size: 0.9rem;
+}
+
+#intro {
+    padding-top: 1rem;
+}
+
+#info-dates {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#all-dates {
+    grid-area: 1/2/auto/3;
+    text-align: left;
+}
+
+#dates {
+    padding-bottom: 1rem;
+}
+
+#year {
+    font-weight: 600;
+}
+
+#quote {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#words {
+    grid-area: 1/2/auto/3;
+    text-align: left;
+}
+
+#speaker {
+    grid-area: auto/2/auto/3;
+    text-align: left;
+}
